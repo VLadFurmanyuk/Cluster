@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--------------SEO---------------------->
+  <meta name="description" content="
+    Ми спільнота малих та середніх за розміром компаній в галузях інформаційних технологій, освіти та індустрії.
+    Територія нашого впливу - Донецька, Луганська області. Сталий розвиток ІТ-галузі та сучасних технологій в
+    регіоні, шляхом вибудовування повноцінної екосистеми
+    IT - Бізнес - Влада - Освіта"><!--Короткий опис сайту-->
+  <meta name="keywords" content="keyword_1, ..."><!--У поле content необхіндо ввести ключові слова, які допоможуть знайти сайт-->
+  <!--------------ШРИФТИ---------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!--------------ФАЙЛИ CSS---------------------->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Контакти</title>
+</head>
+<body style="opacity:0;transition: 1s;">
+<!----------------------------------------HEADER----------------------------------------------------------------------->
+<header class="header">
+  <div class="container header__container">
+    <a href="../index.html" class="logo"><img src="images/header/logo.png" alt="Logo"></a>
+    <nav class="nav" data-nav>
+      <div class="container-mobile-menu">
+        <a href="../index.html"><img src="images/header/logo-mobile.svg" alt="" class="mobile-menu-logo"></a>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="../index.html" class="nav__item_link">Main page</a></li>
+          <li class="nav__item"><a href="../about/index.html" class="nav__item_link">About</a></li>
+          <li class="nav__item"><a href="../whoweare/index.html" class="nav__item_link">Projects</a></li>
+          <li class="nav__item"><a href="../members/index.html" class="nav__item_link">Members</a></li>
+          <li class="nav__item"><a href="../partners/index.html" class="nav__item_link">Partners</a></li>
+          <li class="nav__item"><a href="#" class="nav__item_link form_link">Contacts</a></li>
+          <li class="nav__item"><a href="../../form/index.html" class="nav__item_link">UA</a></li>
+        </ul>
+      </div>
+    </nav>
+    <button class="burger" data-burger>
+      <span class="burger__line" aria-label="Открыть меню" aria-expanded="false"></span>
+    </button>
+  </div>
+</header>
+<!----------------------------------------FORM------------------------------------------------------------------------->
+<section class="form-section">
+  <div class="container">
+  <h3 class="form-section__title">Contacts</h3>
+  <p class="form-section__adress">
+    83913, Parkova str 3,<br>
+    Kramatorsk,<br>
+    Donetsk region, Ukraine
+  </p>
+  <div class="form-section__contacts">
+    <a href="tel:0506 564 608" class="form-section__contacts_item">Тел: 0506 564 608</a>
+    <a href="mailto:technocluster.east.ua@gmail.com" class="form-section__contacts_item">Email: technocluster.east.ua@gmail.com</a>
+    <a href="tech-cluster.org" class="form-section__contacts_item">tech-cluster.org</a>
+  </div>
+  <div class="form-section__block_text">
+  <p class="form-section__text">
+    Public Association "East Ukrainian Technocluster".<br>
+    If you are interested in the activities of the Cluster and you wish<br>
+    join our community - leave a request.
+  </p>
+  </div>
+  </div>
+  <form action="#" class="form" method="POST" enctype="multipart/form-data">
+    <div class="form__content">
+      <div class="form__content_block">
+        <div class="block-input-1">
+          <div class="form__input">
+            <input type="text" class="input__item input_right" data-validate-field="name" placeholder="Full name" name="Ім'я">
+          </div>
+          <div class="form__input">
+            <input type="mail" class="input__item input_right" data-validate-field="email" placeholder="Email" name="Пошта">
+          </div>
+          <div class="form__input">
+            <input type="text" class="input__item input_right" placeholder="Name of Company" name="Назва підприємства">
+          </div>
+        </div>
+        <div class="block-input-2">
+          <div class="form__input">
+            <input type="tel" class="input input__item input-tel" data-validate-field="tel" placeholder="Phone number" name="Номер телефону">
+          </div>
+          <div class="form__input">
+            <input type="text" data-validate-field="num" class="input__item" placeholder="USREOU" class="input__number" name="ЄНДРПОУ" id="number">
+          </div>
+          <div class="form__input">
+            <input type="text" class="input__item" placeholder="Position" name="Посада">
+          </div>
+        </div>
+      </div>
+      <div class="form__input form__input_textare">
+          <input type="text" class="input__item  input__textarea" placeholder="Your message" name="Повідомлення">
+      </div>
+      <div class="form__input form__input_checkbox">
+        <input type="checkbox" checked name="Згоден(на) з політикою конфіденційності" class="form__input_checkbox_item custom-checkbox" data-validate-field="checkbox" id="checkbox">
+        <label for="checkbox" class="form__input_checkbox_label">I agree with the privacy policy</label>
+      </div>
+        <button class="button open-popup" id="primary">Send</button>
+      </div>
+    </div>
+  </form>
+</section>
+<!----------------------------------------FOOTER----------------------------------------------------------------------->
+<footer class="footer" id="footer">
+    <div class="container footer_container">
+        <div class="footer__rights">
+            <img src="images/footer/footer_img.png" alt="" class="footer__rights_image">
+            <p class="footer__rights_text">
+              Copyright © 2022
+              All Rights Reserved -
+              East Ukrainian
+              Technocluster
+            </p>
+        </div>
+        <div class="footer__menu">
+            <p class="footer__menu_title">Eastern Ukrainian Technocluster</p>
+            <div class="footer__menu_nav">
+            <div class="footer__menu_items_1">
+                <a href="../about/index.html" class="footer__menu_items_1_item">About us</a>
+                <a href="../whoweare/index.html" class="footer__menu_items_1_item">Projects</a>
+                <a href="#" class="footer__menu_items_1_item">Contacts</a>
+            </div>
+            <div class="footer__menu_items_2">
+                <a href="../members/index.html" class="footer__menu_items_2_item">Members</a>
+                <a href="../partners/index.html" class="footer__menu_items_2_item">Partners</a>
+            </div>
+            </div>
+        </div>
+        <div class="footer__contacts">
+            <h3 class="footer__contacts_title">Contacts</h3>
+            <p class="footer__contacts_adress">
+                84314, Parkova str 3,<br>
+                Kramatorsk,<br>
+                Donetsk region, Ukraine
+            </p>
+            <div class="footer__contacts_items">
+                <a href="tel:0506 564 608" class="footer__contacts_phone contacts_item">Тел: 0506 564 608</a><br>
+                <a href="mailto:technocluster.east.ua@gmail.com" class="footer__contacts_mail contacts_item">Email: technocluster.east.ua@gmail.com</a><br>
+                <a href="tech-cluster.org" class="footer__contacts_cite contacts_item">tech-cluster.org</a><br>
+            </div>
+        </div>
+        <div class="footer__images">
+            <a href="#top"><img src="images/footer/bi_arrow-up-square.png" alt="" class="footer__images_arrow"></a>
+            <div class="footer__images_icons">
+              <a href="https://www.facebook.com/technocluster.east.ua/"><img src="images/footer/eva_facebook-fill.svg" alt="" class="footer__images_icons_facebook"></a>
+              <a href="https://t.me/eua_tech_cluster"><img src="images/footer/file-icons_telegram.svg" alt="" class="footer__images_icons_telegram"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!----------------------------------------MOBILE FOOTER---------------------------------------------------------------->
+<footer class="mobile-footer">
+  <div class="container">
+    <div class="mobile--footer__title_block">
+      <h3 class="mobile-footer__title">Контакти</h3>
+      <a href="#" class="mobile-footer__arrow"><img src="images/footer/bi_arrow-up-square.png" alt=""></a>
+    </div>
+    <div class="mobile-footer__contacts">
+      <div class="mobile-footer__contacts_items">
+        <p class="mobile-footer__contacts_items_adress">
+          84314, вул. Паркова 3,<br>
+          м.Краматорськ,<br>
+          Донецька обл., Україна
+        </p>
+        <div class="mobile-footer__contacts_items_contact">
+          <a href="tel:0506 564 608" class="mobile-footer__contacts_items_contact_item">Тел: 0506 564 608</a>
+          <a href="mailto:technocluster.east.ua@gmail.com" class="mobile-footer__contacts_items_contact_item">Email: technocluster.east.ua@gmail.com</a>
+          <a href="tech-cluster.org" class="mobile-footer__contacts_items_contact_item">tech-cluster.org</a>
+        </div>
+      </div>
+      <div class="mobile-footer__contacts_items_social">
+        <a href="https://www.facebook.com/technocluster.east.ua/" class="mobile-footer__contacts_items_social_facebook"><img src="images/footer/eva_facebook-fill.svg" alt=""></a>
+        <a href="https://t.me/eua_tech_cluster" class="mobile-footer__contacts_items_social_telegram"><img src="images/footer/file-icons_telegram.svg" alt=""></a>
+      </div>
+
+    </div>
+    <p class="mobile-footer_rigts">
+      Copyright © 2022
+      All Rights Reserved -
+      East Ukrainian
+      Technocluster
+    </p>
+  </div>
+</footer>
+<!----------------------------------------JS SCRIPTS------------------------------------------------------------------->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--JQUERY-->
+<script src="script/main.js"></script><!--FIXED HEADER-->
+<script src="script/burger.js"></script><!--BURGER MENU-->
+<script defer src="libs/inputmask.min.js"></script><!--МАСКА ДЛЯ ПОЛЯ З ТЕЛЕФОНОМ-->
+<script defer src="libs/just-validate.min.js"></script><!--ВАЛІДАЦІЯ ДЛЯ ФОРМИ-->
+<script defer src="script/script.js"></script><!--СКРИПТ ДЛЯ ВІДПРАВЛЕННЯ ФОРМИ НА ПОШТУ-->
+<script src="https://unpkg.com/imask"></script>
+<script src="script/mask.js"></script><!--МАСКА ДЛЯ ПОЛЯ З ЄНДРПОУ-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!--CUSTOM ALERT MENU-->
+<script><!--Анімація появи сторінки-->
+  $(document).ready(function() {
+    $("body").css("opacity", "1");
+  });
+</script>
+</body>
+</html>
