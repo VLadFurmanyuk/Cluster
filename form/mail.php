@@ -33,15 +33,15 @@ try {
 
   // Настройки вашей почты
   $mail->Host = 'smtp.gmail.com'; // SMTP сервера вашей почты
-  $mail->Username = 'furmanyukvlad13@gmail.com'; // Логин на почте
-  $mail->Password = 'ihwoxlvnvpdbfxki'; // Пароль на почте
+  $mail->Username = 'technocluster.east.ua@gmail.com'; // Логин на почте
+  $mail->Password = 'ntoakbxoufqqzqbn'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port = 465;
 
-  $mail->setFrom('furmanyukvlad13@gmail.com', 'Заявка с вашего сайта'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('technocluster.east.ua@gmail.com', 'Заявка з Вашого сайту'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('furmanyukvlad13@gmail.com');
+  $mail->addAddress('technocluster.east.ua@gmail.com');
 
   // Прикрипление файлов к письму
   if (!empty($file['name'][0])) {
