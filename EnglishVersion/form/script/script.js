@@ -36,7 +36,7 @@ new window.JustValidate('.form', {
       maxLength: 50,
     }
   },
-  colorWrong: 'rgba(244, 36, 36, 0.25)',
+  colorWrong: 'rgba(244, 36, 36, 0.40)',
 
   submitHandler: function(thisForm) {
     let formData = new FormData(thisForm);

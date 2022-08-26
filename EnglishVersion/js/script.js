@@ -4,8 +4,8 @@ $(document).ready(function (){
         dots: true,
         slidesToShow: 3,
         slidesToScroll: 3,
-        // autoplay: true,
-        // autoplaySpeed: 500,
+        autoplay: true,
+        autoplaySpeed: 5000,
         responsive:[
             {
                 breakpoint: 1025,
@@ -81,5 +81,7 @@ $(document).ready(function (){
         rows: 2,
         // slidesPerRow: 2,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
     });
 });
