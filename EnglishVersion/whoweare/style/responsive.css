@@ -37,6 +37,9 @@
     .projects__content_mobile{
         display: flex;
     }
+    .projects__content_mobile{
+        margin-top: 0px;
+    }
     /*------------FOOTER-----------------------*/
     .footer{
         display: none;
@@ -201,5 +204,8 @@
     }
     .nav__list{
         margin-top: 10px;
+    }
+    .projects__content_mobile{
+        margin-top: 0px;
     }
 }
